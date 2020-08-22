@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>operating systems on Insaaanimanav&#39;s blog </title>
+    <link>https://insaanimanav.github.io/tags/operating-systems/</link>
+    <description>Recent content in operating systems on Insaaanimanav&#39;s blog </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 05 Jul 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://insaanimanav.github.io/tags/operating-systems/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>OS Wars part 2</title>
+      <link>https://insaanimanav.github.io/post/os_wars_2/</link>
+      <pubDate>Sun, 05 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://insaanimanav.github.io/post/os_wars_2/</guid>
+      <description>OS wars part 2 So It&amp;rsquo;s the year 1991, Microsoft and Apple have been trading blows for decades now and finally the war ground is about to settle, then comes along Linux and s, Microsoft reals and regroups. Now Imagine if you are Microsoft in 1991, With assured global dominance things are looking pretty good for you. But you are still cutting out the main heroes of the story ie the software developers, sysadmins, etc.</description>
+    </item>
+    
+  </channel>
+</rss>

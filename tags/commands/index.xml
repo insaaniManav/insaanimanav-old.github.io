@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>commands on Insaaanimanav&#39;s blog </title>
+    <link>https://insaanimanav.github.io/tags/commands/</link>
+    <description>Recent content in commands on Insaaanimanav&#39;s blog </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 30 Jun 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://insaanimanav.github.io/tags/commands/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Introduction to the Linux command Line</title>
+      <link>https://insaanimanav.github.io/post/command_line_intro/</link>
+      <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://insaanimanav.github.io/post/command_line_intro/</guid>
+      <description>Intro to the command line One of the most powerful tools while using Linux is the Linux command line . Because you see Linux was never meant to be used as a desktop . In the Initial days of Linux it was completely used without a graphical interface right in the server room . Thats why the linux command line is so powerful.
+Before talking about anything we need to get some basics in place</description>
+    </item>
+    
+  </channel>
+</rss>

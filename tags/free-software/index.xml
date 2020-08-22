@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>free software on Insaaanimanav&#39;s blog </title>
+    <link>https://insaanimanav.github.io/tags/free-software/</link>
+    <description>Recent content in free software on Insaaanimanav&#39;s blog </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 09 Jul 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://insaanimanav.github.io/tags/free-software/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Introduction to Open Source Note taking</title>
+      <link>https://insaanimanav.github.io/post/joplin/</link>
+      <pubDate>Thu, 09 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://insaanimanav.github.io/post/joplin/</guid>
+      <description>Taking notes the open-source style Joplin is an open-source note-taking application that is also cross-platform so your notes and todos get synced whether you are on android or your desktop. So without any further ado, Let&amp;rsquo;s get to it
+Install and Setup Joplin provides an amazing install script to get you up and running in no time in case of Linux
+wget -O - https://raw.githubusercontent.com/laurent22/joplin/master/Joplin_install_and_update.sh | bash Just copy and paste this into your terminal and this will fetch the latest version of Joplin and install it.</description>
+    </item>
+    
+    <item>
+      <title>KDE connect-The companion app that we deserve</title>
+      <link>https://insaanimanav.github.io/post/kde_connect/</link>
+      <pubDate>Thu, 02 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://insaanimanav.github.io/post/kde_connect/</guid>
+      <description>KDE connect - &amp;ldquo;The companion app that we deserve&amp;rdquo; Linking my phone with my computer has always been of concern. I mean, If I want to send a file to my computer, How do I do it? Email it to me? Somehow send it to me on Telegram? All these are tedious ways and not very efficient in nature. One fix if you are a techie is to use maybe create a wrapper around SFTP(Simple File Transfer Protocol) and use it to send files.</description>
+    </item>
+    
+  </channel>
+</rss>

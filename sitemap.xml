@@ -3,112 +3,123 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://insaanimanav.github.io/</loc>
+    <lastmod>2020-07-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://insaanimanav.github.io/tags/encryption/</loc>
+    <lastmod>2020-07-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://insaanimanav.github.io/tags/gpg/</loc>
+    <lastmod>2020-07-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://insaanimanav.github.io/post/</loc>
+    <lastmod>2020-07-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://insaanimanav.github.io/post/signing_commits/</loc>
+    <lastmod>2020-07-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://insaanimanav.github.io/tags/</loc>
+    <lastmod>2020-07-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://insaanimanav.github.io/tags/github/</loc>
+    <lastmod>2020-07-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://insaanimanav.github.io/post/profile-readme/</loc>
+    <lastmod>2020-07-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://insaanimanav.github.io/tags/readme/</loc>
+    <lastmod>2020-07-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://insaanimanav.github.io/tags/faif/</loc>
+    <lastmod>2020-07-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://insaanimanav.github.io/tags/free-software/</loc>
+    <lastmod>2020-07-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://insaanimanav.github.io/post/joplin/</loc>
+    <lastmod>2020-07-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://insaanimanav.github.io/tags/open-source/</loc>
+    <lastmod>2020-07-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://insaanimanav.github.io/tags/operating-systems/</loc>
+    <lastmod>2020-07-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://insaanimanav.github.io/post/os_wars_2/</loc>
+    <lastmod>2020-07-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://insaanimanav.github.io/post/kde_connect/</loc>
+    <lastmod>2020-07-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://insaanimanav.github.io/tags/commands/</loc>
+    <lastmod>2020-06-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://insaanimanav.github.io/post/command_line_intro/</loc>
+    <lastmod>2020-06-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://insaanimanav.github.io/tags/linux/</loc>
+    <lastmod>2020-06-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://insaanimanav.github.io/tags/terminal/</loc>
+    <lastmod>2020-06-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://insaanimanav.github.io/tags/os/</loc>
+    <lastmod>2020-06-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://insaanimanav.github.io/post/os_wars_1/</loc>
+    <lastmod>2020-06-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://insaanimanav.github.io/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://insaanimanav.github.io/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://insaanimanav.github.io/categories/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://insaanimanav.github.io/tags/css/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://insaanimanav.github.io/tags/html/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://insaanimanav.github.io/tags/markdown/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://insaanimanav.github.io/post/markdown-syntax/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://insaanimanav.github.io/post/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://insaanimanav.github.io/categories/syntax/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://insaanimanav.github.io/tags/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://insaanimanav.github.io/tags/themes/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://insaanimanav.github.io/categories/themes/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://insaanimanav.github.io/tags/privacy/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://insaanimanav.github.io/post/rich-content/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://insaanimanav.github.io/tags/shortcodes/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://insaanimanav.github.io/post/placeholder-text/</loc>
-    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://insaanimanav.github.io/tags/text/</loc>
-    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://insaanimanav.github.io/post/math-typesetting/</loc>
-    <lastmod>2019-03-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://insaanimanav.github.io/tags/emoji/</loc>
-    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://insaanimanav.github.io/post/emoji-support/</loc>
-    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://insaanimanav.github.io/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://insaanimanav.github.io/tags/index/</loc>
   </url>
   
 </urlset>

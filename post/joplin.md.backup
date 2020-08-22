@@ -1,0 +1,110 @@
++++
+author = "Manav Sethi"
+title = "Introduction to Open Source Note taking"
+date = "2020-07-09"
+description = "Basics Joplin"
+tags = [
+    "open-source",
+    "free software",
+    "faif"
+]
+categories = [
+    "applications",
+]
+series = ["Linux"]
+aliases = ["notes"]
++++
+
+# Taking notes the open-source style
+
+Joplin is an open-source note-taking application that is also cross-platform so your notes and todos get synced whether you are on android or your desktop.
+So without any further ado, Let's get to it
+
+# Install and Setup
+
+Joplin provides an amazing install script to get you up and running in no time in case of Linux
+
+```shell
+wget -O - https://raw.githubusercontent.com/laurent22/joplin/master/Joplin_install_and_update.sh | bash
+```
+
+Just copy and paste this into your terminal and this will fetch the latest version of Joplin and install it.
+
+If you are a Windows User, get Joplin from [here](https://github.com/laurent22/joplin/releases/download/v1.0.220/JoplinPortable.exe)
+This will download a standalone executable and you can place and use it wherever you like.
+
+In case of Mac you can also use homebrew to install Joplin, just type in
+
+```shell
+brew cask install Joplin
+```
+
+Note: The official homebrew package isn't supported. For more information head over to [Joplin's Github Page](https://github.com/laurent22/joplin)
+
+The final step is that if you want notes to be synchronized on your android device as well, you need to install the android app which you can get from the [Play Store](https://play.google.com/store/apps/details?id=net.cozic.joplin&utm_source=GitHub&utm_campaign=README&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1)
+
+# Taking notes
+
+Now that we have Joplin installed we can get to its main utility ie taking notes.
+One of the best things about Joplin is that it supports notes in markdown.
+Markdown is a way to style text on the web. You control the display of the document formatting words as bold or italic, adding images, etc.
+For example, putting a hash in front of text makes it a heading
+
+# # Heading 1
+
+## ## Heading 2
+
+### ### Heading 3
+
+Or maybe put \* to make the text bold **bold**.
+For the full markdown syntax guide refer [here](https://guides.github.com/features/mastering-markdown/).
+Now Joplin also has an option in beta to edit the text in their WYSIWYG editor as well. (P.S.: The editor is a bit flaky and not recommended if you have crucial notes you cannot afford to lose).
+
+# Insert SS of the main screen here
+
+So as you can see this contains mainly four divisions, The first one contains your notebooks ie collection of notes. Next, there are your notes, So whatever notes you have saved in your notebook are shown here. In the end, there is your page which is written in markdown and is rendered beautifully in the final column.
+The UI Is very light and intuitive and I have to be honest, I like it a lot.
+Now let us discuss some other features this application has to offer.
+
+## Attached TUI application
+
+So as much as people like GUI apps, a lot of times people who live in the terminal want everything in the terminal and for that Joplin provides us with a TUI or a text user interface as well. Seems like a great utility at least to me so that you don't have to get out of the terminal to look at your notes for something you want to do in the terminal itself.
+
+## The Web clipper
+
+Joplin has amazing functionality for a web clipper wherein you can clip whatever text, images, etc you like from the web and include it into your notes. It comes as a browser extension for all major browsers, just click on the extension and select whatever menu option you like.
+
+
+
+## Synchronisation with cloud services
+
+Using Joplin, you can synchronize all your notes with your cloud platform services as well which means that you will never miss any of your notes even if you distro hop or switch over to some other operating systems. Joplin lets you synchronize with all the major cloud service providers including but not limited to Dropbox and Nextcloud.
+
+
+## Global Search
+
+Another feature that I often use is the global search feature or as Joplin likes to call it "Goto Anything". You can press Ctrl+g to access this feature. This opens up a text box wherein you can start a fuzzy search and look for whatever you want.
+
+
+
+## Export from Evernote
+
+So this is again a feature that I believe that people are going to like. You can directly export your Evernote notes into this application and take the great leap from proprietary to OSS software :D.
+
+
+
+## Value for privacy
+
+Joplin is an application that completely values your privacy and hence it does not send any unauthorized data back and since it is completely open-source in nature, You can believe it XD. You can also turn off sync whenever you like so Joplin will stop sending data to your sync service as well.
+
+## Alarm
+
+This is a weird feature that I for one have never used before but seems nice to have when you want it. Alarms can be simply associated with a task in a note which can cause a notification or ring your phone or laptop.
+
+## End to end encryption
+
+Joplin supports end-to-end encryption (E2EE) on all the applications. E2EE is a system where only the owner of the data can read it. It prevents potential eavesdroppers - including telecom providers, internet providers, and even the developers of Joplin from being able to access the data. Please see the [End-To-End Encryption Tutorial](https://joplinapp.org/e2ee/) for more information about this feature and how to enable it.
+
+This is all for this amazing note-taking application Joplin is. Thanks for being O.S.S software.
+
+Also, stay tuned because this Sunday we are going to be talking about the great tale of python.

@@ -6,89 +6,116 @@
     <description>Recent content in Tags on Insaaanimanav&#39;s blog </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jul 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://insaanimanav.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>css</title>
-      <link>https://insaanimanav.github.io/tags/css/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <title>encryption</title>
+      <link>https://insaanimanav.github.io/tags/encryption/</link>
+      <pubDate>Thu, 23 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://insaanimanav.github.io/tags/css/</guid>
+      <guid>https://insaanimanav.github.io/tags/encryption/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>html</title>
-      <link>https://insaanimanav.github.io/tags/html/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <title>gpg</title>
+      <link>https://insaanimanav.github.io/tags/gpg/</link>
+      <pubDate>Thu, 23 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://insaanimanav.github.io/tags/html/</guid>
+      <guid>https://insaanimanav.github.io/tags/gpg/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>markdown</title>
-      <link>https://insaanimanav.github.io/tags/markdown/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <title>github</title>
+      <link>https://insaanimanav.github.io/tags/github/</link>
+      <pubDate>Thu, 16 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://insaanimanav.github.io/tags/markdown/</guid>
+      <guid>https://insaanimanav.github.io/tags/github/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>themes</title>
-      <link>https://insaanimanav.github.io/tags/themes/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <title>readme</title>
+      <link>https://insaanimanav.github.io/tags/readme/</link>
+      <pubDate>Thu, 16 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://insaanimanav.github.io/tags/themes/</guid>
+      <guid>https://insaanimanav.github.io/tags/readme/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>privacy</title>
-      <link>https://insaanimanav.github.io/tags/privacy/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      <title>faif</title>
+      <link>https://insaanimanav.github.io/tags/faif/</link>
+      <pubDate>Thu, 09 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://insaanimanav.github.io/tags/privacy/</guid>
+      <guid>https://insaanimanav.github.io/tags/faif/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>shortcodes</title>
-      <link>https://insaanimanav.github.io/tags/shortcodes/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      <title>free software</title>
+      <link>https://insaanimanav.github.io/tags/free-software/</link>
+      <pubDate>Thu, 09 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://insaanimanav.github.io/tags/shortcodes/</guid>
+      <guid>https://insaanimanav.github.io/tags/free-software/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>text</title>
-      <link>https://insaanimanav.github.io/tags/text/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
+      <title>open-source</title>
+      <link>https://insaanimanav.github.io/tags/open-source/</link>
+      <pubDate>Thu, 09 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://insaanimanav.github.io/tags/text/</guid>
+      <guid>https://insaanimanav.github.io/tags/open-source/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>emoji</title>
-      <link>https://insaanimanav.github.io/tags/emoji/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      <title>operating systems</title>
+      <link>https://insaanimanav.github.io/tags/operating-systems/</link>
+      <pubDate>Sun, 05 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://insaanimanav.github.io/tags/emoji/</guid>
+      <guid>https://insaanimanav.github.io/tags/operating-systems/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>index</title>
-      <link>https://insaanimanav.github.io/tags/index/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>commands</title>
+      <link>https://insaanimanav.github.io/tags/commands/</link>
+      <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://insaanimanav.github.io/tags/index/</guid>
+      <guid>https://insaanimanav.github.io/tags/commands/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://insaanimanav.github.io/tags/linux/</link>
+      <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://insaanimanav.github.io/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>terminal</title>
+      <link>https://insaanimanav.github.io/tags/terminal/</link>
+      <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://insaanimanav.github.io/tags/terminal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OS</title>
+      <link>https://insaanimanav.github.io/tags/os/</link>
+      <pubDate>Sun, 28 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://insaanimanav.github.io/tags/os/</guid>
       <description></description>
     </item>
     

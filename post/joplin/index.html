@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <title>Insaaanimanav&#39;s blog </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="theme-color" content="#000084" />
+    <link rel="icon" href="https://insaanimanav.github.io/favicon.ico">
+    <link rel="canonical" href="https://insaanimanav.github.io">
+    
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/bootstrap-responsive.css">
+    <link rel="stylesheet" href="/css/style.css">
+    
+</head><body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"></button>
+            <a class="brand" href="https://insaanimanav.github.io">Insaaanimanav&#39;s blog </a>
+            <div class="nav-collapse collapse">
+                <ul class="nav">
+                    
+                    
+                        
+                            <li>
+                                <a href="/about/">
+                                    
+                                    <span>About</span>
+                                </a>
+                            </li>
+                        
+                    
+                        
+                            <li>
+                                <a href="/post/">
+                                    
+                                    <span>All posts</span>
+                                </a>
+                            </li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav><div id="content" class="container">
+
+<div class="row-fluid navmargin">
+    <div class="page-header">
+        <h1>Introduction to Open Source Note taking - Thu, Jul 9, 2020</h1>
+    </div>
+    <p class="lead">Basics of Joplin</p>
+    <h1 id="taking-notes-the-open-source-style">Taking notes the open-source style</h1>
+<p>Joplin is an open-source note-taking application that is also cross-platform so your notes and todos get synced whether you are on android or your desktop.
+So without any further ado, Let&rsquo;s get to it</p>
+<h1 id="install-and-setup">Install and Setup</h1>
+<p>Joplin provides an amazing install script to get you up and running in no time in case of Linux</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">wget -O - https://raw.githubusercontent.com/laurent22/joplin/master/Joplin_install_and_update.sh | bash
+</code></pre></div><p>Just copy and paste this into your terminal and this will fetch the latest version of Joplin and install it.</p>
+<p>If you are a Windows User, get Joplin from <a href="https://github.com/laurent22/joplin/releases/download/v1.0.220/JoplinPortable.exe">here</a>
+This will download a standalone executable and you can place and use it wherever you like.</p>
+<p>In case of Mac you can also use homebrew to install Joplin, just type in</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">brew cask install Joplin
+</code></pre></div><p>Note: The official homebrew package isn&rsquo;t supported. For more information head over to <a href="https://github.com/laurent22/joplin">Joplin&rsquo;s Github Page</a></p>
+<p>The final step is that if you want notes to be synchronized on your android device as well, you need to install the android app which you can get from the <a href="https://play.google.com/store/apps/details?id=net.cozic.joplin&amp;utm_source=GitHub&amp;utm_campaign=README&amp;pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">Play Store</a></p>
+<h1 id="taking-notes">Taking notes</h1>
+<p>Now that we have Joplin installed we can get to its main utility ie taking notes.
+One of the best things about Joplin is that it supports notes in markdown.
+Markdown is a way to style text on the web. You control the display of the document formatting words as bold or italic, adding images, etc.
+For example, putting a hash in front of text makes it a heading</p>
+<h1 id="-heading-1"># Heading 1</h1>
+<h2 id="-heading-2">## Heading 2</h2>
+<h3 id="-heading-3">### Heading 3</h3>
+<p>Or maybe put * to make the text bold <strong>bold</strong>.
+For the full markdown syntax guide refer <a href="https://guides.github.com/features/mastering-markdown/">here</a>.
+Now Joplin also has an option in beta to edit the text in their WYSIWYG editor as well. (P.S.: The editor is a bit flaky and not recommended if you have crucial notes you cannot afford to lose).</p>
+<h1 id="insert-ss-of-the-main-screen-here">Insert SS of the main screen here</h1>
+<p>So as you can see this contains mainly four divisions, The first one contains your notebooks ie collection of notes. Next, there are your notes, So whatever notes you have saved in your notebook are shown here. In the end, there is your page which is written in markdown and is rendered beautifully in the final column.
+The UI Is very light and intuitive and I have to be honest, I like it a lot.
+Now let us discuss some other features this application has to offer.</p>
+<h2 id="attached-tui-application">Attached TUI application</h2>
+<p>So as much as people like GUI apps, a lot of times people who live in the terminal want everything in the terminal and for that Joplin provides us with a TUI or a text user interface as well. Seems like a great utility at least to me so that you don&rsquo;t have to get out of the terminal to look at your notes for something you want to do in the terminal itself.</p>
+<h2 id="the-web-clipper">The Web clipper</h2>
+<p>Joplin has amazing functionality for a web clipper wherein you can clip whatever text, images, etc you like from the web and include it into your notes. It comes as a browser extension for all major browsers, just click on the extension and select whatever menu option you like.</p>
+<h2 id="synchronisation-with-cloud-services">Synchronisation with cloud services</h2>
+<p>Using Joplin, you can synchronize all your notes with your cloud platform services as well which means that you will never miss any of your notes even if you distro hop or switch over to some other operating systems. Joplin lets you synchronize with all the major cloud service providers including but not limited to Dropbox and Nextcloud.</p>
+<h2 id="global-search">Global Search</h2>
+<p>Another feature that I often use is the global search feature or as Joplin likes to call it &ldquo;Goto Anything&rdquo;. You can press Ctrl+g to access this feature. This opens up a text box wherein you can start a fuzzy search and look for whatever you want.</p>
+<h2 id="export-from-evernote">Export from Evernote</h2>
+<p>So this is again a feature that I believe that people are going to like. You can directly export your Evernote notes into this application and take the great leap from proprietary to OSS software :D.</p>
+<h2 id="value-for-privacy">Value for privacy</h2>
+<p>Joplin is an application that completely values your privacy and hence it does not send any unauthorized data back and since it is completely open-source in nature, You can believe it XD. You can also turn off sync whenever you like so Joplin will stop sending data to your sync service as well.</p>
+<h2 id="alarm">Alarm</h2>
+<p>This is a weird feature that I for one have never used before but seems nice to have when you want it. Alarms can be simply associated with a task in a note which can cause a notification or ring your phone or laptop.</p>
+<h2 id="end-to-end-encryption">End to end encryption</h2>
+<p>Joplin supports end-to-end encryption (E2EE) on all the applications. E2EE is a system where only the owner of the data can read it. It prevents potential eavesdroppers - including telecom providers, internet providers, and even the developers of Joplin from being able to access the data. Please see the <a href="https://joplinapp.org/e2ee/">End-To-End Encryption Tutorial</a> for more information about this feature and how to enable it.</p>
+<p>This is all for this amazing note-taking application Joplin is. Thanks for being O.S.S software.</p>
+<p>Also, stay tuned because this Sunday we are going to be talking about the great tale of python.</p>
+
+    <h4><a href="https://insaanimanav.github.io">Back to Home</a></h4>
+</div>
+
+
+        </div><footer class="container">
+    <hr class="soften">
+    <p>
+        &copy; 
+        
+            Manav Sethi
+        
+        <span id="thisyear">2020</span>
+        
+    </p>
+    <p class="text-center">
+        
+        <a href="https://twitter.com/insaanimanav">Twitter</a> 
+        <a href="https://linkedin.com/in/insaanimanav">Linkedin</a> 
+        <a href="https://github.com/insaanimanav">GitHub</a> 
+        <a href="https://gitlab.com/insaanimanav">GitLab</a>
+    </p>
+</footer>
+
+<script src="/js/jquery.js"></script>
+<script src="/js/bootstrap-386.js"></script>
+<script src="/js/bootstrap-transition.js"></script>
+<script src="/js/bootstrap-alert.js"></script>
+<script src="/js/bootstrap-modal.js"></script>
+<script src="/js/bootstrap-dropdown.js"></script>
+<script src="/js/bootstrap-scrollspy.js"></script>
+<script src="/js/bootstrap-tab.js"></script>
+<script src="/js/bootstrap-tooltip.js"></script>
+<script src="/js/bootstrap-popover.js"></script>
+<script src="/js/bootstrap-button.js"></script>
+<script src="/js/bootstrap-collapse.js"></script>
+<script src="/js/bootstrap-carousel.js"></script>
+<script src="/js/bootstrap-typeahead.js"></script>
+<script src="/js/bootstrap-affix.js"></script>
+<script>
+    _386 = { 
+        fastLoad: true ,
+        onePass: true , 
+        speedFactor: 3 
+    };
+
+    
+    function ThisYear() {
+        document.getElementById('thisyear').innerHTML = new Date().getFullYear();
+    };
+</script></body>
+</html>

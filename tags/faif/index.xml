@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>faif on Insaaanimanav&#39;s blog </title>
+    <link>https://insaanimanav.github.io/tags/faif/</link>
+    <description>Recent content in faif on Insaaanimanav&#39;s blog </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 09 Jul 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://insaanimanav.github.io/tags/faif/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Introduction to Open Source Note taking</title>
+      <link>https://insaanimanav.github.io/post/joplin/</link>
+      <pubDate>Thu, 09 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://insaanimanav.github.io/post/joplin/</guid>
+      <description>Taking notes the open-source style Joplin is an open-source note-taking application that is also cross-platform so your notes and todos get synced whether you are on android or your desktop. So without any further ado, Let&amp;rsquo;s get to it
+Install and Setup Joplin provides an amazing install script to get you up and running in no time in case of Linux
+wget -O - https://raw.githubusercontent.com/laurent22/joplin/master/Joplin_install_and_update.sh | bash Just copy and paste this into your terminal and this will fetch the latest version of Joplin and install it.</description>
+    </item>
+    
+  </channel>
+</rss>

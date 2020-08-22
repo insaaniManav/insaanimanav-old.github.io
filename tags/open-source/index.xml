@@ -1,36 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Insaaanimanav&#39;s blog </title>
-    <link>https://insaanimanav.github.io/</link>
-    <description>Recent content on Insaaanimanav&#39;s blog </description>
+    <title>open-source on Insaaanimanav&#39;s blog </title>
+    <link>https://insaanimanav.github.io/tags/open-source/</link>
+    <description>Recent content in open-source on Insaaanimanav&#39;s blog </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 23 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jul 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://insaanimanav.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://insaanimanav.github.io/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Signing Git commits</title>
-      <link>https://insaanimanav.github.io/post/signing_commits/</link>
-      <pubDate>Thu, 23 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://insaanimanav.github.io/post/signing_commits/</guid>
-      <description>But why do I need to sign my commits Git is cryptographically secure. But as with most things on the internet, you can&amp;rsquo;t trust what you see. But you don&amp;rsquo;t have to extremely skeptical either, the least you can do is ensure that whatever stuff you put on there is trusted and verified.
-What exactly Is GPG? GPG stands for GnuPG which is a free implementation of the OpenPGP standard for encryption.</description>
-    </item>
-    
-    <item>
-      <title>Github Profile Level Readme</title>
-      <link>https://insaanimanav.github.io/post/profile-readme/</link>
-      <pubDate>Thu, 16 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://insaanimanav.github.io/post/profile-readme/</guid>
-      <description>Github Profile README GitHub recently released a feature that allows users to create a profile-level README to display on their GitHub profile. This article will help you to access this new feature.
-I&amp;rsquo;ll also be sharing some fun GitHub profiles I&amp;rsquo;ve seen so far. If you create yours don&amp;rsquo;t forget it to share it with me on twitter @insaanimanav .
-Why README&amp;rsquo;s This feature allows much more than what you can currently do with your bio on github.</description>
-    </item>
     
     <item>
       <title>Introduction to Open Source Note taking</title>
@@ -62,16 +41,6 @@ wget -O - https://raw.githubusercontent.com/laurent22/joplin/master/Joplin_insta
     </item>
     
     <item>
-      <title>Introduction to the Linux command Line</title>
-      <link>https://insaanimanav.github.io/post/command_line_intro/</link>
-      <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://insaanimanav.github.io/post/command_line_intro/</guid>
-      <description>Intro to the command line One of the most powerful tools while using Linux is the Linux command line . Because you see Linux was never meant to be used as a desktop . In the Initial days of Linux it was completely used without a graphical interface right in the server room . Thats why the linux command line is so powerful.
-Before talking about anything we need to get some basics in place</description>
-    </item>
-    
-    <item>
       <title>The OS Wars Part 1</title>
       <link>https://insaanimanav.github.io/post/os_wars_1/</link>
       <pubDate>Sun, 28 Jun 2020 00:00:00 +0000</pubDate>
@@ -80,24 +49,6 @@ Before talking about anything we need to get some basics in place</description>
       <description>Some stories are so epic , with such high stakes that it seems like their introduction is almost like the star wars rolling intro
 It is a period of mounting tension in the world as two huge empires are fighting on getting a monopoly in the software market using their proprietary software, meanwhile in a distant land open source rebels have started to gather
 Part 1 - Get out of this box It&amp;rsquo;s 1983 Ronald Regan is the president of the United States; I was around -18 years old and the US and Soviet Union is threatening the world with a nuclear war .</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://insaanimanav.github.io/archives/</link>
-      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://insaanimanav.github.io/archives/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://insaanimanav.github.io/about/</link>
-      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://insaanimanav.github.io/about/</guid>
-      <description>Hi, I am Manav Sethi an Undegrad student in my second year. I like to contribute to open source software at KDE. Apart from that I am also a FOSS proponent . I go by the pseudonym @insaanimanav on the web, reach out to me on telegram or on matrix(insaanimanav:matrix.org) Reach out me on email at manav.sethi@outlook.in</description>
     </item>
     
   </channel>

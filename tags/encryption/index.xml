@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>encryption on Insaaanimanav&#39;s blog </title>
+    <link>https://insaanimanav.github.io/tags/encryption/</link>
+    <description>Recent content in encryption on Insaaanimanav&#39;s blog </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 23 Jul 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://insaanimanav.github.io/tags/encryption/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Signing Git commits</title>
+      <link>https://insaanimanav.github.io/post/signing_commits/</link>
+      <pubDate>Thu, 23 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://insaanimanav.github.io/post/signing_commits/</guid>
+      <description>But why do I need to sign my commits Git is cryptographically secure. But as with most things on the internet, you can&amp;rsquo;t trust what you see. But you don&amp;rsquo;t have to extremely skeptical either, the least you can do is ensure that whatever stuff you put on there is trusted and verified.
+What exactly Is GPG? GPG stands for GnuPG which is a free implementation of the OpenPGP standard for encryption.</description>
+    </item>
+    
+  </channel>
+</rss>

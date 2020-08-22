@@ -1,0 +1,148 @@
++++
+author = "Manav Sethi"
+title = "Introduction to the Linux command Line"
+date = "2019-03-11"
+description = "Sample article showcasing basics of the Linux command line"
+tags = [
+    "linux",
+    "terminal",
+    "commands"
+]
+categories = [
+    "syntax",
+]
+series = ["Linux"]
+aliases = ["terminal"]
++++
+
+# Intro to the command line 
+
+One of the most powerful tools while using Linux is the Linux command line .
+Because you see Linux was never meant to be used as a desktop . In the Initial days of Linux it was completely used without a graphical interface right in the server room . Thats why the linux command line is so powerful.
+
+Before talking about anything we need to get some basics in place 
+
+### Everything in linux is a file 
+Whatever you see in Linux is a file period. Devices are files , Drives are files , your keyboard is a file and so is your mouse. A directory or a folder basically means a file which contains the names and permissions of other files .
+This also means that you can unknowingly delete all your keyboard drivers. Of course Linux will not let you do that unless you are a superuser 
+
+### Superuser = Superman 
+Linux has a concept of Super user or the root user . The root user is better known as the superuser . A superuser is basically able to do or change anything in your system. *Never do anything as a super user unless you know exactly what you are doing* . The biggest problem in linux is that it let's you do whatever you like . This can be anything from deleting some configuration files to deleting your root directory .
+If you do something stupid as the super user you can end up with a super broken system which might take a lot of time to fix. 
+To become the superuser , open up your command prompt and type in 
+```shell
+su
+```  
+It will then ask you the root password and kaboom you are the superuser . 
+The way you can see that you are the superuser is by observing your command prompt if it ends with a **$** , you are not the superuser and if it ends with a pound symbol ie **#** You are the super user 
+For example 
+
+```shell
+[insaanimanav@manav ~]$ -----Not a superuser 
+[root@manav insaanimanav]# ----- SuperUser
+``` 
+
+
+# Directory Structure and Directory Navigation commands
+The absolute bare minimum you need to know while working in a linux system is navigating in directories. Now before we go ahead we need to know the directory structure in linux . To do that , Open up your terminal and type in 
+```
+cd /
+ls 
+```
+
+Don't worry about these commands we are going to talk about them in just a second. 
+You are going to see an output similar to this
+```shell
+bin   dev  home  lib64       mnt  proc  run   srv  tmp  var
+boot  etc  lib   lost+found  opt  root  sbin  sys  usr
+```
+Now this is your main directory structure  for linux . Let's talk a little bit about this 
+
+1.bin 
+The bin directory is basically what contains the binary files for all your programms 
+2.dev 
+dev basically contains all the devices and their drivers 
+3.home 
+Home is the primary directory where you will be staying most of your time and all your personal stuff will be in there . 
+4.boot 
+One of the most important directories is the boot directory . As the name suggests, boot basically consists of all the information that is required by your system to boot from . 
+
+##### If you ever find yourself changing anything in the root directory, Take a step back and ask yourself "What am I doing exactly ?" If there is a reasonable answer to this then go ahead.Else please don't	
+
+<br><br>
+
+## cd command 
+cd stands for change directory 
+putting the directory name in front of the cd command lets you change to that directory 
+A little caveat is that /home/username is your main home directory which is the default for all terminal editors and that is also aliased to ~ 
+Basically both of these are the same 
+ 
+```shell
+cd /home/insaanimanav/Videos
+cd ~/Videos 
+```
+
+This is probably the single most useful command that you will use while using the command line 
+
+## pwd 
+This is a small utility command which tells you which directory you are in 
+
+```shell
+pwd
+```
+
+## ls 
+The second most useful command after cd is ls . ls is short for listing 
+As the name suggests this lets you list the contents of a directory .
+Now with ls lets talk a little bit about the options available . 
+
+-l -- this does the long listing of files which basically means that you will see more information about a file such as the permissions 
+-a -- this lists the hidden files as well . Hidden files are the files whos name starts with a . 
+
+Example 
+```shell 
+ls # list the files 
+ls -l # long listing of the files wit
+ls -a  # list hiddent files 
+ls -al # combine both the options and show a long listing of hidden files 
+```
+
+## mkdir 
+Another small utility commmand which lets you make directories . 
+If you just type mkdir and the name of directory after it you will see that the directory is created in the same directory that you are currently and if you pas a path to the mkdir command then the directory will be created in that path 
+For example 
+
+```
+mkdir name 
+mkdir /path/to/the/directory 
+```
+
+## rm 
+This command lets you remove stuff from your machine 
+for exmaple 
+```shell 
+rm ramlal
+```
+This  will remove the file name that you specify . Like all the other commands that we have talked about this will remove the file in the current directory . Pass a path to this and it will remove the file at this path . 
+Now as we talked about initially that even a directory is a file so can rm delete it ?
+The answer is yes it can . For example lets say Ramlal is the name of any directory. 
+So when you write 
+```shell
+rm -r Ramlal
+```
+The -r tells it to basically delete the contents inside it too . It stands for recursively 
+Now what if you want that rm should ask before deleting the directory, then you should use -i option with rm 
+
+```shell 
+rm -ir Ramlal
+``` 
+
+Now sometimes, sometimes files are protected in nature and when you run rm on them then you may get an unable to delete error . To fix this, you should run rm with the -f option 
+
+```shell 
+rm -rf Protected_Ramlal 
+```
+
+That's all the basic commands you are going to need for moving around in any linux based system . 
+If you want to see more linux based tutorials on Tuesdays , Then please let us know down in the comment box below. 
+Also Stay Tuned because this Thursday we will be talking about KDE connect - The companion app that we all deserve"

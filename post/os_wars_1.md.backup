@@ -1,0 +1,90 @@
++++
+author = "Manav Sethi"
+title = "The OS Wars Part 1"
+date = "2020-07-28"
+description = "History repeats itself"
+tags = [
+    "open-source",
+    "OS",
+]
+categories = [
+    "stories",
+]
+series = ["Linux"]
+aliases = ["OS1"]
++++
+Some stories are so epic , with such high stakes that it seems like their introduction is almost like the star wars rolling intro 
+
+It is a period of mounting tension in the world as two huge empires are fighting on getting a monopoly in the software market using their proprietary 
+software, meanwhile in a distant land open source rebels have started to gather 
+
+# Part 1 - Get out of this box 
+
+It's 1983 Ronald Regan is the president of the United States; I was around -18 years old and the US and Soviet Union is threatening the world with a nuclear war . 
+At the Annual Apple Developer's Conference A young steve jobs gets up on a stage and starts to say into the mic in a very serious tone, 
+>We have invited 3 Industry experts to have a panel discussion on software
+
+And in a couple of minutes, cheesy 80s music starts playing and steve jobs declares that all of the three members have to take turns wooing him. This was basically like the 80s version of the bachelor 
+At this point the third person gets up,  clears up his throat and declares to the audience that more than half of the Microsoft's revenue will come from 
+Macintosh . Yes my dear friends he was no other than Bill Gates . What no one at the conference knew that in just a short amount of time Microsoft was about to release windows 1.0. 
+And this is exactly where the OS wars begin. But lets rewind a little bit as to what happpened between Bill Gates and apple that led Microsoft to go from Apple's best friend to their worst enemy.
+
+Take a look at Apple's (SuperBowl Commercial)[https://www.youtube.com/watch?v=2zfqw8nhUwA] 
+The TLDR; for the commercial was basically that the all the people are minions who are IBM users and Apple Suddenly comes out to as a rebel to protect them and save them from IBM. Honestly The idea of Apple being everyone's saviour was a bit much.
+
+Now the superbowl ad was super risky so the folks at Apple board didnt wanna run it but Steve Jobs loved and he was actually the only one who was standing by the ad agency, The rest of the board wanted to fire them !
+
+So after this and a few other series of events Steve Jobs eventually was forced out of Apple and wouldn't com back until a few years . 
+
+Now this is where our story takes a wild turn, On June 25th, 1985 Bill gates wrote a letter to the then CEO of Apple. The main idea of the letter was that Apple could no longer operate in a silo and they should license third party devs the Macintosh code and architecture so that they can also work on it to make it better. 
+This Idea was instantly tossed out the window and Bill Gates was hence super pissed. 
+After only about 5 months Microsoft Released Windows 1.0.
+
+Eventually the difference between the idealogies of the two comapnies came to light . 
+Apple wanted a good User Experience which was only possible if they controlled all the aspects of The Mac.
+Microsoft wanted modularity that people using Windows could have access to a host of different apps which may or may not be developed By Microsoft. 
+# Part 2 - Karma's a bitch
+Now Let's get to the next part of the story 
+It's 1979 and Steve Jobs drives upto Xerox Park , The developers there have been working on something called a Graphical User Interface . They have everything ranging from mouse pointers to windows on their screens. But the thing is that the execs Didnt realize that they were sitting right there on a platinum mine and the enginners were a little skeptical about showing Steve how it all worked.
+
+Jobs walks out of this meeting with a truckload of Ideas and based on these Apple releases Lisa in 1983 and the Macintosh in 1984 . 
+When Jobs was asked about this stealing from Xerox, He's shameless about it and quotes Picasso 
+>Good artists copy, Great Artists Steal
+
+Little did he know, this was all going to come back at him. 
+
+In the fall of 1983 at the Comdex, Microsoft releases Windows and as it turns out, they had lifted all the ideas of the GUI from Apple which Apple had lifted from Xerox. Apple was furious and called this a betrayal . A breach of their trust. 
+Quoting Bill Gates on this , He says 
+> Steve, It's like we both had this rich neighbour called Xerox  and I broke in to steal his Tv and found out that you had already stolen it 
+
+Now, As it turns out Apple Sued Microsoft for stealing Ideas of *Look and feel*. 
+
+This battle drags on and on in the court for a long time and finally in 1993 Judge Von Walker sides With Microsoft Saying that *Look and feel* is not covered under copyright
+
+And as swiftly as it began, Apple's brief lead had completely vanished.
+After this Windows 3.0 was released and it ported hundreds and thousands of the poeple over to Windows.
+It looks as if future of the world would be controlled by Windows. 
+
+Now let's fast forward a bit to the 1997 Mac World Expo, With an almost bankrupt Apple, a much more humble Steve jobs get on the stage and starts to talk about parternships. In the end he tells the world about one partnership in particular that has become very important, The one with Microsoft . 
+It almost seems like the War is Over and Apple is calling for a ceasefire, but when the stakes are this high,  It's not this simple, It's never this simple.
+
+
+# Part 3 - Is it really over ?
+
+Almost when dragging war was about to come to an end, along came a 21 year old Finnish computer science student who changed absolutely everything. 
+Linus torvalds wanted to use his 386 processor on his computer and his IBM clone running MS DOS barely gave him any freedom . Next the price tag on UNIX was huge and Linus would never have been able to afford it.
+So he did the next best thing possible , created a kernel of his own and dubbed it Linux. 
+He made the source code available and hundreds and thousands of people started to give him feedback on it. Open Source collaboration was born . 
+
+Eventually Linus placed Linux under the GNU GPL 2.0 which basically means that anyone who is modifying the source code has to give it back to him and if it was good enough, It would be incorporated. 
+
+The basic Idea was that Windows and Mac were a cathedral where there was only one kind of thing available and Linux was a bazaar where there were thousands of people with different religions and different mindsets. People had started liking the bazaar much more than the cathedral. 
+
+Next time on Story Sunday is going to be the next half of the OS wars 
+
+Right now the main players in the story ie the Developers have not ascended into the battlefield, That is going to change in the next half. 
+We see the rise of Linux, businesses wake up and realize that they need an internet presence now. The battlefield shifts from the desktop to the server room . There’s corporate espionage and the unlikeliest change of hearts.
+
+All this and more in the concluding half of the OS wars 
+
+Also Stay tuned for next week's Tutorial Tuesday Wherein we are going to talk about an Introduction to the Linux command line . 

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <title>Insaaanimanav&#39;s blog </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="theme-color" content="#000084" />
+    <link rel="icon" href="https://insaanimanav.github.io/favicon.ico">
+    <link rel="canonical" href="https://insaanimanav.github.io">
+    
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/bootstrap-responsive.css">
+    <link rel="stylesheet" href="/css/style.css">
+    
+</head><body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"></button>
+            <a class="brand" href="https://insaanimanav.github.io">Insaaanimanav&#39;s blog </a>
+            <div class="nav-collapse collapse">
+                <ul class="nav">
+                    
+                    
+                        
+                            <li>
+                                <a href="/about/">
+                                    
+                                    <span>About</span>
+                                </a>
+                            </li>
+                        
+                    
+                        
+                            <li>
+                                <a href="/post/">
+                                    
+                                    <span>All posts</span>
+                                </a>
+                            </li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav><div id="content" class="container">
+
+<div class="row-fluid navmargin">
+    <div class="page-header">
+        <h1>Signing Git commits - Thu, Jul 23, 2020</h1>
+    </div>
+    <p class="lead">Sign stuff you put on the web</p>
+    <h1 id="but-why-do-i-need-to-sign-my-commits">But why do I need to sign my commits</h1>
+<p>Git is cryptographically secure. But as with most things on the internet, you can&rsquo;t trust what you see. But you don&rsquo;t have to extremely skeptical either, the least you can do is ensure that whatever stuff you put on there is trusted and verified.</p>
+<h2 id="what-exactly-is-gpg">What exactly Is GPG?</h2>
+<p>GPG stands for GnuPG which is a free implementation of the OpenPGP standard for encryption. It is a command-line tool which helps you manage your keys and helps you create new ones when needed.</p>
+<p>As Edward Snowden has rightly said,</p>
+<blockquote>
+<p>Arguing that you don&rsquo;t care about the right to privacy because you have nothing to &gt;hide is no different from saying you don&rsquo;t care about free speech because you have &gt;nothing to say.</p>
+</blockquote>
+<p>Not to bore you out of your seats, let us get to it and get our hands dirty.</p>
+<h2 id="configuring-gpg">Configuring GPG</h2>
+<p>First of all, you need gpg configured and your key installed. For that, open your terminal and execute this -</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">gpg --list-keys
+</code></pre></div><p>This tells you if you have already had any keys. If you don&rsquo;t, go ahead and generate one by typing in -</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">gpg --gen-key
+</code></pre></div><p>This will ask you a series of questions. Go ahead and answer them, and finally you are going to get a gpg key.</p>
+<p>For more information on getting a gpg key, refer to our last blogpost about <a href="https://www.thebinarytree.com/2020/06/introduction-to-gpg-keys.html">Introduction to GPG Keys</a>.</p>
+<p>Now that you finally have a key, you can use it to start signing things such as your commits and tags. For people who don&rsquo;t know what tags are, they are used to signify important milestones in a repositories history.</p>
+<p>Ok now back to signing commits. So now you finally have a gpg key, let us configure it to sign your commits.</p>
+<p>Now when you do a gpg &ndash;list-keys you are going to see something similar to this -</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ gpg --list-keys
+
+/Users/schacon/.gnupg/pubring.gpg
+---------------------------------
+pub 2048R/0A46826A 2014-06-04
+uid Scott Chacon <span style="color:#f92672">(</span>Git signing key<span style="color:#f92672">)</span> &lt;schacon@gmail.com&gt;
+sub 2048R/874529A9 2014-06-04
+</code></pre></div><p>The characters in the pub line before the slash are the ones useful to us. So, copy them down somewhere.</p>
+<p>Now let us tell git to sign using this key -</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ git config --global user.signingkey 0A46826A
+</code></pre></div><p>Git is now going to use our key to sign all our commits. Go ahead and sign your first commit by using this -</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ git commit -a -S -m <span style="color:#e6db74">&#39;Signed commit&#39;</span>
+
+You need a passphrase to unlock the secret key <span style="color:#66d9ef">for</span>
+user: <span style="color:#e6db74">&#34;Scott Chacon (Git signing key) &lt;schacon@gmail.com&gt;&#34;</span>
+2048-bit RSA key, ID 0A46826A, created 2014-06-04
+
+<span style="color:#f92672">[</span>master 5c3386c<span style="color:#f92672">]</span> Signed commit
+<span style="color:#ae81ff">4</span> files changed, <span style="color:#ae81ff">4</span> insertions<span style="color:#f92672">(</span>+<span style="color:#f92672">)</span>, <span style="color:#ae81ff">24</span> deletions<span style="color:#f92672">(</span>-<span style="color:#f92672">)</span>
+rewrite Rakefile <span style="color:#f92672">(</span>100%<span style="color:#f92672">)</span>
+create mode <span style="color:#ae81ff">100644</span> lib/git.rb
+</code></pre></div><p>You can also see what commits you have in your history which have been signed or unsigned by using this -</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ git log --show-signature -1
+</code></pre></div><p>You are going to see something similar to this -</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">commit 9368a922432e8caa6ee84eb800994322bef55095 <span style="color:#f92672">(</span>HEAD -&gt; master, origin/master<span style="color:#f92672">)</span>
+gpg: Signature made Monday <span style="color:#ae81ff">15</span> June <span style="color:#ae81ff">2020</span> 09:28:28 AM IST
+gpg: using RSA key B27561095B6B3DC15182CD75453432554F506A4B
+gpg: Good signature from <span style="color:#e6db74">&#34;Manav Sethi &lt;manav.sethi@outlook.in&gt;&#34;</span> <span style="color:#f92672">[</span>ultimate<span style="color:#f92672">]</span>
+Author: insaanimanav &lt;manav.sethi@outlook.in&gt;
+Date: Mon Jun <span style="color:#ae81ff">15</span> 09:28:28 <span style="color:#ae81ff">2020</span> +0530
+
+Initial Commit
+</code></pre></div><p>This means that the commit was properly signed and it can be verified.</p>
+<p>But the next problem is what if you want git to automatically sign your commits each time without you explicitly telling it with the ** -S ** option. There is a way to prevent this. To make git automatically sign your commits you can use this</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">$ git config commit.gpgsign true
+</code></pre></div><p>This is all about signing your commits locally. But there is another benefit to signing commits, which is that you can put your gpg key upon your git server and let it verify that the commit came directly from you. This can help in preventing <a href="https://en.wikipedia.org/wiki/Man-in-the-middle_attack">Man In The Middle - MITM</a> attacks.</p>
+<p>For this guide, I am going to be using <a href="https://github.com">Github</a>. But you can use whatever git server you are using.</p>
+<ul>
+<li>First of all, go ahead and login to your GitHub account.</li>
+<li>Head to the menu in the top right and select settings from it.
+<img src="/github_2.png" alt="github_2"></li>
+<li>In settings, go to the section of ssh keys and gpg keys and then go to the gpg keys. Click on add.
+<img src="/github.png" alt="github.png"></li>
+<li>This will prompt you to enter your key. Export your key and paste it here.</li>
+</ul>
+<p>Voila! Now you have your gpg key imported in Github and can start working with it.</p>
+<p>All the commits that you push to Github are now going to say verified in front of them, which means that they came directly from you.</p>
+
+    <h4><a href="https://insaanimanav.github.io">Back to Home</a></h4>
+</div>
+
+
+        </div><footer class="container">
+    <hr class="soften">
+    <p>
+        &copy; 
+        
+            Manav Sethi
+        
+        <span id="thisyear">2020</span>
+        
+    </p>
+    <p class="text-center">
+        
+        <a href="https://twitter.com/insaanimanav">Twitter</a> 
+        <a href="https://linkedin.com/in/insaanimanav">Linkedin</a> 
+        <a href="https://github.com/insaanimanav">GitHub</a> 
+        <a href="https://gitlab.com/insaanimanav">GitLab</a>
+    </p>
+</footer>
+
+<script src="/js/jquery.js"></script>
+<script src="/js/bootstrap-386.js"></script>
+<script src="/js/bootstrap-transition.js"></script>
+<script src="/js/bootstrap-alert.js"></script>
+<script src="/js/bootstrap-modal.js"></script>
+<script src="/js/bootstrap-dropdown.js"></script>
+<script src="/js/bootstrap-scrollspy.js"></script>
+<script src="/js/bootstrap-tab.js"></script>
+<script src="/js/bootstrap-tooltip.js"></script>
+<script src="/js/bootstrap-popover.js"></script>
+<script src="/js/bootstrap-button.js"></script>
+<script src="/js/bootstrap-collapse.js"></script>
+<script src="/js/bootstrap-carousel.js"></script>
+<script src="/js/bootstrap-typeahead.js"></script>
+<script src="/js/bootstrap-affix.js"></script>
+<script>
+    _386 = { 
+        fastLoad: true ,
+        onePass: true , 
+        speedFactor: 3 
+    };
+
+    
+    function ThisYear() {
+        document.getElementById('thisyear').innerHTML = new Date().getFullYear();
+    };
+</script></body>
+</html>

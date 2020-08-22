@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OS on Insaaanimanav&#39;s blog </title>
+    <link>https://insaanimanav.github.io/tags/os/</link>
+    <description>Recent content in OS on Insaaanimanav&#39;s blog </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 28 Jun 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://insaanimanav.github.io/tags/os/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The OS Wars Part 1</title>
+      <link>https://insaanimanav.github.io/post/os_wars_1/</link>
+      <pubDate>Sun, 28 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://insaanimanav.github.io/post/os_wars_1/</guid>
+      <description>Some stories are so epic , with such high stakes that it seems like their introduction is almost like the star wars rolling intro
+It is a period of mounting tension in the world as two huge empires are fighting on getting a monopoly in the software market using their proprietary software, meanwhile in a distant land open source rebels have started to gather
+Part 1 - Get out of this box It&amp;rsquo;s 1983 Ronald Regan is the president of the United States; I was around -18 years old and the US and Soviet Union is threatening the world with a nuclear war .</description>
+    </item>
+    
+  </channel>
+</rss>

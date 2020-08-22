@@ -1,0 +1,89 @@
++++
+author = "Manav Sethi"
+title = "OS Wars part 2"
+date = "2020-07-02"
+description = "The rise of Linux"
+tags = [
+    "open-source",
+    "operating systems",
+]
+categories = [
+    "story",
+]
+series = ["Linux"]
+aliases = ["OS2"]
++++
+
+# OS wars part 2
+
+So It's the year 1991, Microsoft and Apple have been trading blows for decades now and finally the war ground is about to settle, then comes along Linux and s, Microsoft reals and regroups.
+Now Imagine if you are Microsoft in 1991, With assured global dominance things are looking pretty good for you. But you are still cutting out the main heroes of the story ie the software developers, sysadmins, etc.
+There is this Finnish geek who along with some people who call themselves "rebels" are duct taping this OS kernel together which they are calling Linux.
+
+Initially, you are not worried about them. I mean they are just a handful of people try to do this as a hobby. But eventually, the sheer size of Linux gets so big that you can't help but notice this huge behemoth. The amount of people contributing to the Linux kernel gets much, much larger than the number of the Microsoft devs.
+
+To give you an estimate of how much, there were around ten thousand lines in the 1990s, a decade later we were at 3 million lines and in case you are wondering we are at around 20 million now.
+The above statistic gives you a rough estimate of how massively open-source software can grow and the power of open-source.
+
+
+Linux was this weird Operating system that gave you the source code and the liberty to play with it and make it behave however you wanted it to. This was strange in the sense that nobody before had thought of this idea of giving away the source code for people to modify and play with and make their changes to it.
+
+Getting access to the Linux command line was a transformative experience for a lot of people, you could not go back from this appealing experience
+go back strange OS. Discovering access to Linux is like gaining access to a secret society, people used to share Linux CDs similar to how people used to share mixtapes of underground music.
+
+Some people were always begging for access to the command line, before the OS wars there was Richard Stalman with GNU but Linux was the OS that delivered like no other.
+While Apple and Microsoft were fighting for domination, the Internet was more peer to peer in nature and not so much client-server. IBM was the opposite of Linux wherein they did have terminals but they were all dumb terminals which means that they were only smart enough to manage the UI but the user wasn't able to use it in any other way. The GUI was slowly becoming more and more popular but there was always a pull in the opposite direction wherein developers wanted access to the command line.
+
+> The early contributors and lovers of the open-source software were pioneers, I > am standing on their shoulders, we all are.
+
+Let's now forward a little bit to the year 1998 where things have changed a lot. With a sudden revolution in the client-server internet realm. All of a sudden every business out there wanting to stay relevant not only has to get a website built but they also need to manage databases, update the website, and a host of other things all of which required them to pay for server space.
+Windows NT comes out in the year 2000
+
+Now for small businesses, paying for proprietary operating systems was not possible. The cost of working with a cheap Linux box was much less than the cost of working with a Windows Box. So naturally, people went for Linux.
+
+This is the point that Microsoft realized that Linux was taking away it's customers. Now when you poke a bear as big as Microsoft, you bet they are going to react.
+So to try and get people to switch over from Linux, they started spreading this propaganda called FUD(Fear, Uncertainty, and Doubt). The idea was that Linux is open source, It's not reliable and full of bugs.
+Initially, some businesses became wary of Linux but
+>Money has a funny way of convincing people to get over their hangups
+
+It was not just Microsoft, It was an entire Industry vs this weird new guy. For example, anyone in a stake in Unix was concerned about Linux and its rise. The SEO group that maintained Unix at that time waged lawsuits for decades but all in vain.
+Linux was on the rise and Microsoft still needed to make a move. To top it all off one of their biggest competitors, IBM just invested a shit ton in Linux because they predicted that Linux was going to be the future.
+Even the money side was in Linux's favor now.
+Fast forward to a few years, 99 percent of the servers now run Linux and now along comes the smartphone
+Linux was there too, ready and rearing to go.
+
+Apple and their iPhones take up a sizeable share of the market, Microsoft hoped to get in on that but surprise surprise, Linux was there too, ready and rearing to go.
+
+> Linux was there too, ready and rearing to go
+
+
+Google used the Linux kernel to create and develop Android. The ground was breaking up now and Microsoft was about to fall into the cracks.
+Microsoft's then CEO Steve Balmer's perspective on Linux was that open-source is cancer. If you give people source code to anything, they are going to copy and paste it and then some viral license such as GPL is going to be applied to it.
+
+Fast forward a few years, Steve Balmer is out and Microsoft has got a new forward-thinking CEO Satya Nadella.
+Now, let us drop this for a minute and Imagine something, Let's say you are playing football and all of a sudden the ground becomes slick, what do you do?
+You have to change your footwear and continue playing right?
+
+This is something that Satya realized that Linux was the tide and to try and prevent it from coming would be extreme foolishness. The only way out was to go with the tide
+
+
+>Linux was the tide and trying to prevent it from coming would be extreme foolishness
+
+In 2013 Microsoft's cloud platform Azure and it support Linux virtual machines **out of the box**. 
+Satya realized that they when you release a cloud platform, you can't force people to use a particular operating system. If you want enterprises to use your cloud service, you can't shove a choice down the people's throats.
+It's 2013, Satya Nadella gets up on stage, and they are just trying to get one big fat point across 
+
+> Microsoft loves Linux  	
+
+He tells everyone that how 20 percent of Azure is linux and that azure will always have world class support for linux and it's distributions
+Microsoft had to swallow their pride and disagree with whatever they said earlier. Time and time again we see the power of open source and what it can achieve. A company even the size of Microsoft can't compete with the thousands of open source developers and volunteers.It was change or perish
+Today's Microsoft is simply not your Mom and Dad's Microsoft.
+Microsoft now releases a lot of their source code under the public domain. For example .NET when released Microsoft didn't think there would be any contributions but Today more than 50 percent of contributions come from outside Microsoft.
+Open source has devoured the tech world now. Linux is everywhere, even though people don't realize it but we use it all the time. Each time you do a google search, you are using Linux, Each time you scroll your Facebook you use Linux, The heck with that, each time you pick up your android phone you are using Linuxq
+
+>Linux is not the enemy, it is the atmosphere
+
+I guess the lesson in all this is that Successful companies have to remain open .When we are wired together our capacity to work and create increases manifolds and isnt that the whole point of software development ?
+
+So that concludes our series on the OS wars and the power of open source. 
+Stay tuned because this Tuesday we are going to have a very requested post on how to sign git commits using GPG keys.  

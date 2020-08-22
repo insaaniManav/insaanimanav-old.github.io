@@ -1,0 +1,81 @@
++++
+author = "Manav Sethi"
+title = "Github Profile Level Readme"
+date = "2020-07-16"
+"
+description = "Make your github profile stand out"
+tags = [
+    "readme",
+    "github",
+]
+categories = [
+    "story",
+]
+series = ["Github"]
+aliases = ["readme"]
++++
+
+# Github Profile README
+GitHub recently released a feature that allows users to create a profile-level README to display on their GitHub profile. This article will help you to access this new feature. 
+
+I'll also be sharing some fun GitHub profiles I've seen so far. If you create yours don't forget  it to share it with me on twitter [@insaanimanav](twitterlinkhere) .
+
+# Why README's
+This feature allows much more than what you can currently do with your bio on github. Since it a readme you can write in markdown as well(did someone say gifs). Another advantage is that it is placed significantly higher than your pinned repositories so it is very clearly visible and will attract attentiom
+A solid readme in an open source project goes a long way in bringing contributors to it. 
+It also encourages users to use that software. In my opinion this extension of the feature to add a README to your profile will be really nice thing. Also if you are looking to make your project level README's better here is a [good guide](https://github.com/matiassingers/awesome-readme).
+
+# Where can I get mine 
+To create your README follow these steps -:
+ **Step 1**: Create a repo new repo on your github which has the same name as your username. For example my username is insaanimanav so I created a repo called insaanimanav(Note : At the time of writing this the name is case sensitive).<br>
+ **Step 2**: Create your fancy new README and  add stuff to it.<br>
+ **Step 3**: Commit your readme to your project 
+ **Step 4**: Push your file if you were working locally 
+ 
+# Some fun README's
+The github README's are written in markdown so you have complete liberty of what you want to do with it including but not limited to adding gifs and images. Need to brush up on markdown syntax ? check out this [Markdown Syntax Guide](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf).
+Now we can look at some README's and I can help you break them down,
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">hey, check out the new <a href="https://twitter.com/github?ref_src=twsrc%5Etfw">@github</a> profile README! this is a really nice addition — I love that we can add some context (and/or nonsense) to our GitHub profiles now 😍<br><br>see mine: <a href="https://t.co/Cvrch1DVFD">https://t.co/Cvrch1DVFD</a><br><br>thanks to <a href="https://twitter.com/cassidoo?ref_src=twsrc%5Etfw">@cassidoo</a> for the heads up that this went live! <a href="https://t.co/xMTeBgRLh0">pic.twitter.com/xMTeBgRLh0</a></p>&mdash; Jason Lengstorf (@jlengstorf) <a href="https://twitter.com/jlengstorf/status/1281026687103168512?ref_src=twsrc%5Etfw"></a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+This is something that we very often see with these README's is that people add a banner in the top. This helps make the profile feel much more inviting and memorable as well.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">It&#39;s not as creative as <a href="https://twitter.com/sudo_overflow?ref_src=twsrc%5Etfw">@sudo_overflow</a>&#39;s readme, but here&#39;s what I came up with. I also plan on adding some text below the image with links to my resume, etc. <a href="https://t.co/C6b8tNDo1z">pic.twitter.com/C6b8tNDo1z</a></p>&mdash; donavon &quot;#BLM&quot; west (@donavon) <a href="https://twitter.com/donavon/status/1281231777475026945?ref_src=twsrc%5Etfw">July 9, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+Next up this is also a great README which consists of a gif which has some pictures arranged together.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Is this how we suppose use github&#39;s readme? <a href="https://t.co/XvLvCUC6iD">pic.twitter.com/XvLvCUC6iD</a></p>&mdash; Pouya (@Saadeghi) <a href="https://twitter.com/Saadeghi/status/1281111778290786310?ref_src=twsrc%5Etfw">July 9, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+Now this doesnt seem that easy to guess but this is also a static gif which you can easily add to your README
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Made myself a self-updating GitHub personal README! It uses a GitHub Action to update itself with my latest GitHub releases, blog entries and TILs <a href="https://t.co/Eve7FOrwYK">https://t.co/Eve7FOrwYK</a> <a href="https://t.co/oJPXLtFdgM">pic.twitter.com/oJPXLtFdgM</a></p>&mdash; Simon Willison (@simonw) <a href="https://twitter.com/simonw/status/1281435464474324993?ref_src=twsrc%5Etfw">July 10, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+You could also use github actions to automate it and let it fetch whatever you want it to from your blog or maybe your twitter account.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I embedded a <a href="https://twitter.com/Spotify?ref_src=twsrc%5Etfw">@Spotify</a> Now Playing widget in my <a href="https://twitter.com/github?ref_src=twsrc%5Etfw">@github</a> profile README!<br><br>It&#39;s an SVG rendered on the fly via <a href="https://twitter.com/vercel?ref_src=twsrc%5Etfw">@vercel</a> serverless function, included in the README via &lt;img&gt; tag.<br><br>Supremely over-engineered, but I discovered lots of fun hacks in the process.<a href="https://t.co/Z8TBE9WxRy">https://t.co/Z8TBE9WxRy</a> <a href="https://t.co/wdKw0maPKp">pic.twitter.com/wdKw0maPKp</a></p>&mdash; Nate Moore (@n_moore) <a href="https://twitter.com/n_moore/status/1282326538990563329?ref_src=twsrc%5Etfw">July 12, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+This is honestly one of my favourite ones, He embedded a spotify now playing in his readme which tells people what song is he playing right now.
+
+Now these are just some README's that I found extremely nice .
+
+Here are some more guides and files to inspire you,
+
+[A list of some awesome readmes](https://github.com/abhisheknaiidu/awesome-github-profile-readme) 
+
+[Add a particle Js based gif](https://dev.to/satvikchachra/how-to-add-an-awesome-readme-to-your-github-profile-361n)
+
+In my opinion this is honestly a great feature and I would love to see more such amazing readme's .
+
+Also stay tuned for Sunday since we will be talking about the tale of python 
+
+
+
+
+
+
+
+
+
+
+
+

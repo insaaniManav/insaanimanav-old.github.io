@@ -1,0 +1,112 @@
++++
+author = "Manav Sethi"
+title = "KDE connect-The companion app that we deserve"
+date = "2020-07-02"
+description = "Change the way you interact with your phone"
+tags = [
+    "open-source",
+    "free software",
+]
+categories = [
+    "applications",
+]
+series = ["Linux"]
+aliases = ["kde-connect"]
++++
+# KDE connect - "The companion app that we deserve"
+
+Linking my phone with my computer has always been of concern. I mean, If I want to send a file to my computer, How do I do it? Email it to me? Somehow send it to me on Telegram?
+All these are tedious ways and not very efficient in nature. One fix if you are a techie is to use maybe create a wrapper around SFTP(Simple File Transfer Protocol) and use it to send files.
+Ok, let us drop this file-sharing thing and move on to for example clipboard sharing. Let's say you have a link on your phone and you want to open it up on your laptop. Again the only way out is to somehow email it or Whatsapp it to your self.
+KDE Connect does this and a lot more 
+
+## What exactly is KDE connect?
+
+KDE Connect is a free and open-source cross-platform application that can be used to connect your devices and synchronize stuff within them easily.
+
+Now without any further ado let's get started with KDE connect.
+
+## Step 1: Installing KDE connect on your desktop
+So I am going to go over installing KDE connect on Windows and Linux here If you want to install it on a mac device head over to (Inoki's blog)[https://kde.inoki.cc/]
+### If you are on a Linux machine
+For Linux users, KDE Connect would be most probably available in your distro's repositories so just use your package manager to fetch and install it.
+For example in the case of Ubuntu
+```shell
+$ sudo apt-get install kdeconnect
+```
+Or Maybe in case of Arch
+```
+$ sudo pacman -S kdeconnect
+```
+### If you are on a windows machine
+You have two possible ways now to get KDE Connect on Windows
+* Get the nightly build (here)[https://binary-factory.kde.org/job/kdeconnect-kde_Nightly_win64/]
+* Build it yourself
+I would personally fetch the nightly build instead of setting up the entire build environment and then building it.
+After you either get an exe or build KDE Connect you just need to run it
+
+### Installing on Android
+Next install KDE connect on android using (F-droid)[https://f-droid.org/en/packages/org.kde.kdeconnect_tp/] or (Play Store)[https://play.google.com/store/apps/details?id=org.kde.kdeconnect_tp&hl=en_US].
+Once you go ahead and install it on your android device as well
+
+## Setting It up
+Now, Once you have KDE connect installed on both your desktop and your android smartphone you can start by pairing them together
+Open it up on either of the devices and then you are going to see the other device provided it should be on the same network as your first device.
+For example, in the case of android, you can see that It is discovering my pc which is insaanimanav@manav.
+Click on this device, this will ask you to request pairing with the other device. As soon as you do, you are going to receive a prompt on the other device. Click on accept and you are good to go.
+
+#### My phone doesn't see my laptop
+[Troubleshoot KDE connect](https://forum.kde.org/viewtopic.php?f=22&t=154107)
+
+# Ok I have set it up. But why?
+KDE Connect lets you do a ~~lot~~LOT of things and some things are not directly visible so you might discover them as an easter egg(at least I did). First, Let's go over the most obvious features, and then we will get to the easter eggs.
+
+## Multimedia control
+Imagine a scenario when you are working on your laptop and your phone is streaming music. Now if you are lazy as me you would never feel like reaching for your phone, unlocking it, and then swiping for the next song. KDE connect let's you do that right from your desktop.
+Just launch the KDE connect app on your desktop and then click on Media Control.
+# Insert MEDIA CONTROL KI IMAGE HERE
+
+Now from this page you can seek specific points within the song, Go to the previous song, next song or even control the volume of your phone!
+
+
+## Remote Input and Presentation control
+Let's say you are in the middle of an important presentation and forgot to bring your Presentation Remote. KDE connect to the rescue
+Just head over to the KDE connect application on your android phone and then click on Remote Input. You will see something similar to this,
+# Remote input screens here
+If you swipe your finger on the screen you are going to be able to use your phone as a trackpad for your laptop.
+If you click on the keyboard icon on the top right, a keyboard pops up on your screen and you can use your phone as a keyboard for your laptop.
+If you go to the main menu and head to Slideshow remote, you are going to see a screen similar to this,
+
+As the options suggest you can get to the next slide, previous slide, and also use your phone as a pointer on your display(which for me is an unbelievable feature).
+
+This can also be done vice versa wherein you can control your phone from your laptop if you select KDE Connect as a keyboard for your phone and navigate around in it.
+
+PS: Very soon you will also be able to mirror your android screen to your laptop and fully interact with it using KDE connect
+
+## Find your device
+
+This is a really handy feature which is useful when you can't seem to find your phone and there is no other phone around using which you can ring yours. All you have to do is to press ring my phone button in the application and your phone starts to ring and there is a huge found button on the screen which you can press to stop the ringing.
+This also works vice versa wherein you can ring your laptop using your phone but, to be honest, I have never used this feature
+
+## File sharing
+
+In my opinion, This is one of the most useful and handy features of KDE connect.
+Now, for this to work on your laptop you need to have Dolphin(KDE's File Manager ). When you open up Dolphin and connect to your phone you can browse it just like you browse a Pendrive. You can see and transfer files and folders to and from your phone.
+If you don't have Dolphin installed you can still send files to your phone and receive it from your phone
+
+# A couple of easter eggs
+
+Now both these are kind of hidden features that are not exactly visible when you are first using KDE connect and as you use it, you realize that they are pretty useful.
+
+## Clipboard sharing
+Clipboard sharing means that if you copy some text, some link, or anything on your laptop you can paste it on your phone. This honestly shocked me the first time that I saw it in action.
+
+## Automatic Media Control
+So Imagine This, you are watching a movie on your laptop and all of a sudden you receive a phone call, In a general case you would pause your movie, Go to your phone and receive your call or deny it. But in case you are using KDE connect, as soon as you receive a phone call, KDE Connect pauses whatever was playing on your laptop and you can mute the phone right from your notification panel and then continue with the movie or walk up to the phone and receive it. As soon as you are done talking, KDE Connect automatically resumes your playback.
+This was also an extremely shocking feature when I first saw it in action.
+
+
+# Conclusion
+
+In the end, we can very easily say that KDE connect is one of the best open-source mobile phone companion applications.
+P.S. - At the time of writing this, KDE connect also has an SMS app but I did not talk about it here since it is currently under development and will be most probably much improved after GSoC 2020.s

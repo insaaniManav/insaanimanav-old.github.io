@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <title>Insaaanimanav&#39;s blog </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="theme-color" content="#000084" />
+    <link rel="icon" href="https://insaanimanav.github.io/favicon.ico">
+    <link rel="canonical" href="https://insaanimanav.github.io">
+    
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/bootstrap-responsive.css">
+    <link rel="stylesheet" href="/css/style.css">
+    
+</head><body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"></button>
+            <a class="brand" href="https://insaanimanav.github.io">Insaaanimanav&#39;s blog </a>
+            <div class="nav-collapse collapse">
+                <ul class="nav">
+                    
+                    
+                        
+                            <li>
+                                <a href="/about/">
+                                    
+                                    <span>About</span>
+                                </a>
+                            </li>
+                        
+                    
+                        
+                            <li>
+                                <a href="/post/">
+                                    
+                                    <span>All posts</span>
+                                </a>
+                            </li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav><div id="content" class="container">
+
+<div class="row-fluid navmargin">
+    <div class="page-header">
+        <h1>Introduction to the Linux command Line - Tue, Jun 30, 2020</h1>
+    </div>
+    <p class="lead">Basics of the Linux command line</p>
+    <h1 id="intro-to-the-command-line">Intro to the command line</h1>
+<p>One of the most powerful tools while using Linux is the Linux command line .
+Because you see Linux was never meant to be used as a desktop . In the Initial days of Linux it was completely used without a graphical interface right in the server room . Thats why the linux command line is so powerful.</p>
+<p>Before talking about anything we need to get some basics in place</p>
+<h3 id="everything-in-linux-is-a-file">Everything in linux is a file</h3>
+<p>Whatever you see in Linux is a file period. Devices are files , Drives are files , your keyboard is a file and so is your mouse. A directory or a folder basically means a file which contains the names and permissions of other files .
+This also means that you can unknowingly delete all your keyboard drivers. Of course Linux will not let you do that unless you are a superuser</p>
+<h3 id="superuser--superman">Superuser = Superman</h3>
+<p>Linux has a concept of Super user or the root user . The root user is better known as the superuser . A superuser is basically able to do or change anything in your system. <em>Never do anything as a super user unless you know exactly what you are doing</em> . The biggest problem in linux is that it let&rsquo;s you do whatever you like . This can be anything from deleting some configuration files to deleting your root directory .
+If you do something stupid as the super user you can end up with a super broken system which might take a lot of time to fix.
+To become the superuser , open up your command prompt and type in</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">su
+</code></pre></div><p>It will then ask you the root password and kaboom you are the superuser .
+The way you can see that you are the superuser is by observing your command prompt if it ends with a <strong>$</strong> , you are not the superuser and if it ends with a pound symbol ie <strong>#</strong> You are the super user
+For example</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#f92672">[</span>insaanimanav@manav ~<span style="color:#f92672">]</span>$ -----Not a superuser 
+<span style="color:#f92672">[</span>root@manav insaanimanav<span style="color:#f92672">]</span><span style="color:#75715e"># ----- SuperUser</span>
+</code></pre></div><h1 id="directory-structure-and-directory-navigation-commands">Directory Structure and Directory Navigation commands</h1>
+<p>The absolute bare minimum you need to know while working in a linux system is navigating in directories. Now before we go ahead we need to know the directory structure in linux . To do that , Open up your terminal and type in</p>
+<pre><code>cd /
+ls 
+</code></pre><p>Don&rsquo;t worry about these commands we are going to talk about them in just a second.
+You are going to see an output similar to this</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">bin   dev  home  lib64       mnt  proc  run   srv  tmp  var
+boot  etc  lib   lost+found  opt  root  sbin  sys  usr
+</code></pre></div><p>Now this is your main directory structure  for linux . Let&rsquo;s talk a little bit about this</p>
+<p>1.bin
+The bin directory is basically what contains the binary files for all your programms
+2.dev
+dev basically contains all the devices and their drivers
+3.home
+Home is the primary directory where you will be staying most of your time and all your personal stuff will be in there .
+4.boot
+One of the most important directories is the boot directory . As the name suggests, boot basically consists of all the information that is required by your system to boot from .</p>
+<h5 id="if-you-ever-find-yourself-changing-anything-in-the-root-directory-take-a-step-back-and-ask-yourself-what-am-i-doing-exactly--if-there-is-a-reasonable-answer-to-this-then-go-aheadelse-please-dont">If you ever find yourself changing anything in the root directory, Take a step back and ask yourself &ldquo;What am I doing exactly ?&rdquo; If there is a reasonable answer to this then go ahead.Else please don&rsquo;t</h5>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<h2 id="cd-command">cd command</h2>
+<p>cd stands for change directory
+putting the directory name in front of the cd command lets you change to that directory
+A little caveat is that /home/username is your main home directory which is the default for all terminal editors and that is also aliased to ~
+Basically both of these are the same</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">cd /home/insaanimanav/Videos
+cd ~/Videos 
+</code></pre></div><p>This is probably the single most useful command that you will use while using the command line</p>
+<h2 id="pwd">pwd</h2>
+<p>This is a small utility command which tells you which directory you are in</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">pwd
+</code></pre></div><h2 id="ls">ls</h2>
+<p>The second most useful command after cd is ls . ls is short for listing
+As the name suggests this lets you list the contents of a directory .
+Now with ls lets talk a little bit about the options available .</p>
+<p>-l &ndash; this does the long listing of files which basically means that you will see more information about a file such as the permissions
+-a &ndash; this lists the hidden files as well . Hidden files are the files whos name starts with a .</p>
+<p>Example</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">ls <span style="color:#75715e"># list the files</span> 
+ls -l <span style="color:#75715e"># long listing of the files wit</span>
+ls -a  <span style="color:#75715e"># list hiddent files</span> 
+ls -al <span style="color:#75715e"># combine both the options and show a long listing of hidden files</span> 
+</code></pre></div><h2 id="mkdir">mkdir</h2>
+<p>Another small utility commmand which lets you make directories .
+If you just type mkdir and the name of directory after it you will see that the directory is created in the same directory that you are currently and if you pas a path to the mkdir command then the directory will be created in that path
+For example</p>
+<pre><code>mkdir name 
+mkdir /path/to/the/directory 
+</code></pre><h2 id="rm">rm</h2>
+<p>This command lets you remove stuff from your machine
+for exmaple</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">rm ramlal
+</code></pre></div><p>This  will remove the file name that you specify . Like all the other commands that we have talked about this will remove the file in the current directory . Pass a path to this and it will remove the file at this path .
+Now as we talked about initially that even a directory is a file so can rm delete it ?
+The answer is yes it can . For example lets say Ramlal is the name of any directory.
+So when you write</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">rm -r Ramlal
+</code></pre></div><p>The -r tells it to basically delete the contents inside it too . It stands for recursively
+Now what if you want that rm should ask before deleting the directory, then you should use -i option with rm</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">rm -ir Ramlal
+</code></pre></div><p>Now sometimes, sometimes files are protected in nature and when you run rm on them then you may get an unable to delete error . To fix this, you should run rm with the -f option</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">rm -rf Protected_Ramlal 
+</code></pre></div><p>That&rsquo;s all the basic commands you are going to need for moving around in any linux based system .
+If you want to see more linux based tutorials on Tuesdays , Then please let us know down in the comment box below.
+Also Stay Tuned because this Thursday we will be talking about KDE connect - The companion app that we all deserve&rdquo;</p>
+
+    <h4><a href="https://insaanimanav.github.io">Back to Home</a></h4>
+</div>
+
+
+        </div><footer class="container">
+    <hr class="soften">
+    <p>
+        &copy; 
+        
+            Manav Sethi
+        
+        <span id="thisyear">2020</span>
+        
+    </p>
+    <p class="text-center">
+        
+        <a href="https://twitter.com/insaanimanav">Twitter</a> 
+        <a href="https://linkedin.com/in/insaanimanav">Linkedin</a> 
+        <a href="https://github.com/insaanimanav">GitHub</a> 
+        <a href="https://gitlab.com/insaanimanav">GitLab</a>
+    </p>
+</footer>
+
+<script src="/js/jquery.js"></script>
+<script src="/js/bootstrap-386.js"></script>
+<script src="/js/bootstrap-transition.js"></script>
+<script src="/js/bootstrap-alert.js"></script>
+<script src="/js/bootstrap-modal.js"></script>
+<script src="/js/bootstrap-dropdown.js"></script>
+<script src="/js/bootstrap-scrollspy.js"></script>
+<script src="/js/bootstrap-tab.js"></script>
+<script src="/js/bootstrap-tooltip.js"></script>
+<script src="/js/bootstrap-popover.js"></script>
+<script src="/js/bootstrap-button.js"></script>
+<script src="/js/bootstrap-collapse.js"></script>
+<script src="/js/bootstrap-carousel.js"></script>
+<script src="/js/bootstrap-typeahead.js"></script>
+<script src="/js/bootstrap-affix.js"></script>
+<script>
+    _386 = { 
+        fastLoad: true ,
+        onePass: true , 
+        speedFactor: 3 
+    };
+
+    
+    function ThisYear() {
+        document.getElementById('thisyear').innerHTML = new Date().getFullYear();
+    };
+</script></body>
+</html>
