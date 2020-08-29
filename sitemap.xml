@@ -4,7 +4,27 @@
   
   <url>
     <loc>https://insaanimanav.github.io/</loc>
-    <lastmod>2020-07-23T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://insaanimanav.github.io/post/one_year_of_engineering/</loc>
+    <lastmod>2020-08-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://insaanimanav.github.io/tags/open-source/</loc>
+    <lastmod>2020-08-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://insaanimanav.github.io/post/</loc>
+    <lastmod>2020-08-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://insaanimanav.github.io/tags/</loc>
+    <lastmod>2020-08-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -18,17 +38,7 @@
   </url>
   
   <url>
-    <loc>https://insaanimanav.github.io/post/</loc>
-    <lastmod>2020-07-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://insaanimanav.github.io/post/signing_commits/</loc>
-    <lastmod>2020-07-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://insaanimanav.github.io/tags/</loc>
     <lastmod>2020-07-23T00:00:00+00:00</lastmod>
   </url>
   
@@ -59,11 +69,6 @@
   
   <url>
     <loc>https://insaanimanav.github.io/post/joplin/</loc>
-    <lastmod>2020-07-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://insaanimanav.github.io/tags/open-source/</loc>
     <lastmod>2020-07-09T00:00:00+00:00</lastmod>
   </url>
   
@@ -120,10 +125,6 @@
   <url>
     <loc>https://insaanimanav.github.io/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://insaanimanav.github.io/post/one_year_of_engineering/</loc>
   </url>
   
 </urlset>
