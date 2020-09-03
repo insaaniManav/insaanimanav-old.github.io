@@ -6,10 +6,21 @@
     <description>Recent content in Posts on Insaaanimanav&#39;s blog </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 28 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://insaanimanav.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Next up Forever</title>
+      <link>https://insaanimanav.github.io/post/next-up-forever/</link>
+      <pubDate>Thu, 03 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://insaanimanav.github.io/post/next-up-forever/</guid>
+      <description>Next Up Forever - AJR - Neotheatre
+So this is the first one in a series of blog posts I am going to write about songs that I like and which are very close to my heart. I frankly just wanted to pour out my thoughts about some things and I realized that since nobody visits this corner of the web so why not here.
+This post is about a song called</description>
+    </item>
     
     <item>
       <title>One year of engineering</title>
@@ -78,8 +89,8 @@ wget -O - https://raw.githubusercontent.com/laurent22/joplin/master/Joplin_insta
       <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>https://insaanimanav.github.io/post/command_line_intro/</guid>
-      <description>Intro to the command line One of the most powerful tools while using Linux is the Linux command line . Because you see Linux was never meant to be used as a desktop . In the Initial days of Linux it was completely used without a graphical interface right in the server room . Thats why the linux command line is so powerful.
-Before talking about anything we need to get some basics in place</description>
+      <description>cd command cd stands for change directory putting the directory name in front of the cd command lets you change to that directory A little caveat is that /home/username is your main home directory which is the default for all terminal editors and that is also aliased to ~ Basically both of these are the same
+cd /home/insaanimanav/Videos cd ~/Videos This is probably the single most useful command that you will use while using the command line</description>
     </item>
     
     <item>

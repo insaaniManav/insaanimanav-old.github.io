@@ -50,42 +50,7 @@
         <h1>Introduction to the Linux command Line - Tue, Jun 30, 2020</h1>
     </div>
     <p class="lead">Basics of the Linux command line</p>
-    <h1 id="intro-to-the-command-line">Intro to the command line</h1>
-<p>One of the most powerful tools while using Linux is the Linux command line .
-Because you see Linux was never meant to be used as a desktop . In the Initial days of Linux it was completely used without a graphical interface right in the server room . Thats why the linux command line is so powerful.</p>
-<p>Before talking about anything we need to get some basics in place</p>
-<h3 id="everything-in-linux-is-a-file">Everything in linux is a file</h3>
-<p>Whatever you see in Linux is a file period. Devices are files , Drives are files , your keyboard is a file and so is your mouse. A directory or a folder basically means a file which contains the names and permissions of other files .
-This also means that you can unknowingly delete all your keyboard drivers. Of course Linux will not let you do that unless you are a superuser</p>
-<h3 id="superuser--superman">Superuser = Superman</h3>
-<p>Linux has a concept of Super user or the root user . The root user is better known as the superuser . A superuser is basically able to do or change anything in your system. <em>Never do anything as a super user unless you know exactly what you are doing</em> . The biggest problem in linux is that it let&rsquo;s you do whatever you like . This can be anything from deleting some configuration files to deleting your root directory .
-If you do something stupid as the super user you can end up with a super broken system which might take a lot of time to fix.
-To become the superuser , open up your command prompt and type in</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">su
-</code></pre></div><p>It will then ask you the root password and kaboom you are the superuser .
-The way you can see that you are the superuser is by observing your command prompt if it ends with a <strong>$</strong> , you are not the superuser and if it ends with a pound symbol ie <strong>#</strong> You are the super user
-For example</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#f92672">[</span>insaanimanav@manav ~<span style="color:#f92672">]</span>$ -----Not a superuser 
-<span style="color:#f92672">[</span>root@manav insaanimanav<span style="color:#f92672">]</span><span style="color:#75715e"># ----- SuperUser</span>
-</code></pre></div><h1 id="directory-structure-and-directory-navigation-commands">Directory Structure and Directory Navigation commands</h1>
-<p>The absolute bare minimum you need to know while working in a linux system is navigating in directories. Now before we go ahead we need to know the directory structure in linux . To do that , Open up your terminal and type in</p>
-<pre><code>cd /
-ls 
-</code></pre><p>Don&rsquo;t worry about these commands we are going to talk about them in just a second.
-You are going to see an output similar to this</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">bin   dev  home  lib64       mnt  proc  run   srv  tmp  var
-boot  etc  lib   lost+found  opt  root  sbin  sys  usr
-</code></pre></div><p>Now this is your main directory structure  for linux . Let&rsquo;s talk a little bit about this</p>
-<p>1.bin
-The bin directory is basically what contains the binary files for all your programms
-2.dev
-dev basically contains all the devices and their drivers
-3.home
-Home is the primary directory where you will be staying most of your time and all your personal stuff will be in there .
-4.boot
-One of the most important directories is the boot directory . As the name suggests, boot basically consists of all the information that is required by your system to boot from .</p>
-<h5 id="if-you-ever-find-yourself-changing-anything-in-the-root-directory-take-a-step-back-and-ask-yourself-what-am-i-doing-exactly--if-there-is-a-reasonable-answer-to-this-then-go-aheadelse-please-dont">If you ever find yourself changing anything in the root directory, Take a step back and ask yourself &ldquo;What am I doing exactly ?&rdquo; If there is a reasonable answer to this then go ahead.Else please don&rsquo;t</h5>
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+    <p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
 <h2 id="cd-command">cd command</h2>
 <p>cd stands for change directory
 putting the directory name in front of the cd command lets you change to that directory

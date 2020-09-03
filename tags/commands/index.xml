@@ -17,8 +17,8 @@
       <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>https://insaanimanav.github.io/post/command_line_intro/</guid>
-      <description>Intro to the command line One of the most powerful tools while using Linux is the Linux command line . Because you see Linux was never meant to be used as a desktop . In the Initial days of Linux it was completely used without a graphical interface right in the server room . Thats why the linux command line is so powerful.
-Before talking about anything we need to get some basics in place</description>
+      <description>cd command cd stands for change directory putting the directory name in front of the cd command lets you change to that directory A little caveat is that /home/username is your main home directory which is the default for all terminal editors and that is also aliased to ~ Basically both of these are the same
+cd /home/insaanimanav/Videos cd ~/Videos This is probably the single most useful command that you will use while using the command line</description>
     </item>
     
   </channel>
